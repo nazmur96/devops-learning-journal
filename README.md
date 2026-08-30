@@ -65,6 +65,13 @@ A script I can't explain is not a success. The unit of progress is **comprehensi
 | 14 | [Secrets Management Reference](./security/14-secrets-management-reference.md) | Secret types, entropy, storage, injection, rotation |
 | 15 | [Production Secrets & Identity](./security/15-production-secrets-and-identity.md) | IAM, workload identity, KMS, PKI, dynamic secrets, signing |
 
+## Standalone references
+
+- [DevOps / SRE Authentication](https://github.com/nazmur96/devops-sre-authentication) — a long-form reference, drill book, hands-on labs, and troubleshooting playbook for authentication and identity across DevOps platforms.
+
+This lives in its own repository because it is a complete reference book rather
+than another numbered project in this journal.
+
 ## Working with Kiro here
 
 A project-local [`.kiro/steering/learning-philosophy.md`](./.kiro/steering/learning-philosophy.md)
