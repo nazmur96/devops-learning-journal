@@ -1,0 +1,36 @@
+# Kiro personal settings (keep steering, which is shareable)
+.kiro/settings/
+
+# Stray temp/inspection files
+.sanitize-*
+.inspect-*
+.deploy-*
+.validate-*
+
+# Editor / OS junk
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Logs & temp
+*.log
+*.tmp
+tmp/
+*.bak
+
+# Python (project 2, 11)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# SQLite (project 11)
+*.sqlite3
+*.db
+
+# Backups/archives produced by exercises (project 8)
+*.tar
+*.tar.gz
+*.tgz
