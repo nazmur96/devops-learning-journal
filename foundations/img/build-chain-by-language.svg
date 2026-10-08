@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<style>.s{font-family:"Noto Sans",sans-serif}.m{font-family:"JetBrainsMono NF",monospace}</style>
+<rect width="1080" height="1350" fill="#0b1220"/>
+<text x="40" y="82" class="m" font-size="22" font-weight="700" fill="#ff9900" letter-spacing="3">FROM LAPTOP TO USER</text>
+<text x="40" y="160" class="s" font-size="58" font-weight="800" fill="#f8fafc">Every language, same 4 jobs.</text>
+<text x="40" y="214" class="s" font-size="27" fill="#94a3b8">The tools change names. The jobs don’t.</text>
+<rect x="40" y="262" width="1000" height="88" rx="14" fill="#16233f"/>
+<text x="56" y="302" class="s" font-size="21" font-weight="700" fill="#f8fafc">Language</text>
+<text x="226" y="302" class="s" font-size="21" font-weight="700" fill="#f8fafc">Entry point</text>
+<text x="226" y="332" class="s" font-size="17" font-style="italic" fill="#fbbf24">step 1 of the recipe</text>
+<text x="391" y="302" class="s" font-size="21" font-weight="700" fill="#f8fafc">Dependencies</text>
+<text x="391" y="332" class="s" font-size="17" font-style="italic" fill="#fbbf24">shopping</text>
+<text x="566" y="302" class="s" font-size="21" font-weight="700" fill="#f8fafc">Build tool</text>
+<text x="566" y="332" class="s" font-size="17" font-style="italic" fill="#fbbf24">cooking</text>
+<text x="731" y="302" class="s" font-size="21" font-weight="700" fill="#f8fafc">Final output</text>
+<text x="731" y="332" class="s" font-size="17" font-style="italic" fill="#fbbf24">the dish</text>
+<text x="921" y="302" class="s" font-size="21" font-weight="700" fill="#f8fafc">Runtime?</text>
+<text x="44" y="400" class="m" font-size="19" font-weight="700" fill="#4ade80" letter-spacing="2">SINGLE BINARY · NOTHING TO INSTALL</text>
+<line x1="524" y1="393" x2="1040" y2="393" stroke="#4ade80" stroke-opacity="0.45" stroke-width="2"/>
+<rect x="40" y="416" width="1000" height="112" rx="14" fill="#111c33"/>
+<rect x="40" y="416" width="8" height="112" rx="4" fill="#00add8"/>
+<text x="64" y="482" class="s" font-size="27" font-weight="800" fill="#f8fafc">Go</text>
+<text x="226" y="479" class="m" font-size="19" fill="#93c5fd">main.go</text>
+<text x="391" y="479" class="s" font-size="20" fill="#e2e8f0">Go Modules</text>
+<text x="566" y="479" class="s" font-size="20" fill="#e2e8f0">go build</text>
+<text x="731" y="479" class="m" font-size="19" fill="#93c5fd">single binary</text>
+<rect x="919" y="453" width="70" height="38" rx="19" fill="#4ade80" fill-opacity="0.15" stroke="#4ade80" stroke-width="2"/>
+<text x="954" y="479" text-anchor="middle" class="s" font-size="19" font-weight="700" fill="#4ade80">None</text>
+<rect x="40" y="540" width="1000" height="112" rx="14" fill="#111c33"/>
+<rect x="40" y="540" width="8" height="112" rx="4" fill="#f74c00"/>
+<text x="64" y="606" class="s" font-size="27" font-weight="800" fill="#f8fafc">Rust</text>
+<text x="226" y="603" class="m" font-size="19" fill="#93c5fd">src/main.rs</text>
+<text x="391" y="603" class="s" font-size="20" fill="#e2e8f0">Cargo</text>
+<text x="566" y="603" class="s" font-size="20" fill="#e2e8f0">cargo build</text>
+<text x="731" y="589" class="m" font-size="19" fill="#93c5fd">binary</text>
+<text x="731" y="617" class="m" font-size="19" fill="#93c5fd">or .wasm</text>
+<rect x="919" y="577" width="70" height="38" rx="19" fill="#4ade80" fill-opacity="0.15" stroke="#4ade80" stroke-width="2"/>
+<text x="954" y="603" text-anchor="middle" class="s" font-size="19" font-weight="700" fill="#4ade80">None</text>
+<text x="44" y="700" class="m" font-size="19" font-weight="700" fill="#fbbf24" letter-spacing="2">NEEDS A RUNTIME ON THE MACHINE</text>
+<line x1="470" y1="693" x2="1040" y2="693" stroke="#fbbf24" stroke-opacity="0.45" stroke-width="2"/>
+<rect x="40" y="716" width="1000" height="112" rx="14" fill="#111c33"/>
+<rect x="40" y="716" width="8" height="112" rx="4" fill="#f89820"/>
+<text x="64" y="782" class="s" font-size="27" font-weight="800" fill="#f8fafc">Java</text>
+<text x="226" y="779" class="m" font-size="19" fill="#93c5fd">Main.java</text>
+<text x="391" y="765" class="s" font-size="20" fill="#e2e8f0">Maven /</text>
+<text x="391" y="793" class="s" font-size="20" fill="#e2e8f0">Gradle</text>
+<text x="566" y="765" class="s" font-size="20" fill="#e2e8f0">Maven /</text>
+<text x="566" y="793" class="s" font-size="20" fill="#e2e8f0">Gradle</text>
+<text x="731" y="779" class="m" font-size="19" fill="#93c5fd">.jar / .war</text>
+<rect x="919" y="753" width="60" height="38" rx="19" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24" stroke-width="2"/>
+<text x="949" y="779" text-anchor="middle" class="s" font-size="19" font-weight="700" fill="#fbbf24">JVM</text>
+<rect x="40" y="840" width="1000" height="112" rx="14" fill="#111c33"/>
+<rect x="40" y="840" width="8" height="112" rx="4" fill="#9b4f96"/>
+<text x="64" y="906" class="s" font-size="27" font-weight="800" fill="#f8fafc">C#</text>
+<text x="226" y="903" class="m" font-size="19" fill="#93c5fd">Program.cs</text>
+<text x="391" y="903" class="s" font-size="20" fill="#e2e8f0">NuGet</text>
+<text x="566" y="903" class="s" font-size="20" fill="#e2e8f0">dotnet build</text>
+<text x="731" y="889" class="m" font-size="19" fill="#93c5fd">.dll or</text>
+<text x="731" y="917" class="m" font-size="19" fill="#93c5fd">executable</text>
+<rect x="919" y="877" width="70" height="38" rx="19" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24" stroke-width="2"/>
+<text x="954" y="903" text-anchor="middle" class="s" font-size="19" font-weight="700" fill="#fbbf24">.NET</text>
+<text x="954" y="936" text-anchor="middle" class="s" font-size="16" font-style="italic" fill="#94a3b8">usually</text>
+<rect x="40" y="964" width="1000" height="112" rx="14" fill="#111c33"/>
+<rect x="40" y="964" width="8" height="112" rx="4" fill="#4b8bbe"/>
+<text x="64" y="1030" class="s" font-size="27" font-weight="800" fill="#f8fafc">Python</text>
+<text x="226" y="1027" class="m" font-size="19" fill="#93c5fd">main.py</text>
+<text x="391" y="1013" class="s" font-size="20" fill="#e2e8f0">pip / Poetry</text>
+<text x="391" y="1041" class="s" font-size="20" fill="#e2e8f0">/ uv</text>
+<text x="566" y="1027" class="s" font-size="20" fill="#e2e8f0">usually none</text>
+<text x="731" y="1013" class="m" font-size="19" fill="#93c5fd">source, .whl</text>
+<text x="731" y="1041" class="m" font-size="19" fill="#93c5fd">or .exe</text>
+<rect x="919" y="1001" width="92" height="38" rx="19" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24" stroke-width="2"/>
+<text x="965" y="1027" text-anchor="middle" class="s" font-size="19" font-weight="700" fill="#fbbf24">Python</text>
+<rect x="40" y="1088" width="1000" height="112" rx="14" fill="#111c33"/>
+<rect x="40" y="1088" width="8" height="112" rx="4" fill="#f7df1e"/>
+<text x="64" y="1154" class="s" font-size="27" font-weight="800" fill="#f8fafc">JavaScript</text>
+<text x="226" y="1137" class="m" font-size="19" fill="#93c5fd">index.html</text>
+<text x="226" y="1165" class="m" font-size="19" fill="#93c5fd">→ index.js</text>
+<text x="391" y="1137" class="s" font-size="20" fill="#e2e8f0">npm / yarn</text>
+<text x="391" y="1165" class="s" font-size="20" fill="#e2e8f0">/ pnpm</text>
+<text x="566" y="1137" class="s" font-size="20" fill="#e2e8f0">Vite /</text>
+<text x="566" y="1165" class="s" font-size="20" fill="#e2e8f0">Webpack</text>
+<text x="731" y="1151" class="m" font-size="19" fill="#93c5fd">dist/ folder</text>
+<rect x="919" y="1125" width="102" height="38" rx="19" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24" stroke-width="2"/>
+<text x="970" y="1151" text-anchor="middle" class="s" font-size="19" font-weight="700" fill="#fbbf24">browser</text>
+<text x="40" y="1246" class="s" font-size="25" font-weight="700" fill="#f8fafc">The final output decides your container image:</text>
+<text x="40" y="1284" class="m" font-size="20" fill="#94a3b8">binary → distroless · .jar → JRE · dist/ → Nginx</text>
+</svg>
