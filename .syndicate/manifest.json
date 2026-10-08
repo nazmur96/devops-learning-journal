@@ -3,10 +3,17 @@
     "foundations/how-code-goes-from-laptop-to-user.md": {
       "devto": {
         "content_hash": "28503c930f9000f696da10f2cf28cbb7cf1d7041226f42b24ff2b2b0233e1042",
-        "posted_at": "2026-10-08T14:14:40+00:00",
+        "posted_at": "2026-10-08T14:15:27+00:00",
         "remote_id": "4818319",
-        "state": "draft",
-        "url": "https://dev.to/nazmur96/how-code-goes-from-your-laptop-to-the-user-e5l-temp-slug-950981"
+        "state": "published",
+        "url": "https://dev.to/nazmur96/how-code-goes-from-your-laptop-to-the-user-3m1d"
+      },
+      "linkedin": {
+        "content_hash": "d702727cfa68e7adff73a8c51c806dbb7bc05149a18a71388b81abe68c477271",
+        "posted_at": "2026-10-08T14:15:28+00:00",
+        "remote_id": "urn:li:share:7513965293128486912",
+        "state": "published",
+        "url": "https://www.linkedin.com/feed/update/urn:li:share:7513965293128486912/"
       }
     },
     "networking/kubernetes-networking-explained.md": {
