@@ -3,10 +3,17 @@
     "networking/kubernetes-networking-explained.md": {
       "devto": {
         "content_hash": "8add05eff5a2b84d75ae0078e7cf15c814dff01f1c417252731c4b4be7802e1b",
-        "posted_at": "2026-10-08T10:47:02+00:00",
+        "posted_at": "2026-10-08T10:47:47+00:00",
         "remote_id": "4817435",
-        "state": "draft",
-        "url": "https://dev.to/nazmur96/kubernetes-networking-explained-simply-2160-temp-slug-7285892"
+        "state": "published",
+        "url": "https://dev.to/nazmur96/kubernetes-networking-explained-simply-p3o"
+      },
+      "linkedin": {
+        "content_hash": "c751866c75034a51d04a9d991dde5b522245cfbc358c5de58118b5fb9cc845ec",
+        "posted_at": "2026-10-08T10:47:49+00:00",
+        "remote_id": "urn:li:share:7513913032767393792",
+        "state": "published",
+        "url": "https://www.linkedin.com/feed/update/urn:li:share:7513913032767393792/"
       }
     }
   },
