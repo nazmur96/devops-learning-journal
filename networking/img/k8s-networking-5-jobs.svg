@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<style>.sans{font-family:"Noto Sans",sans-serif}.mono{font-family:"JetBrainsMono NF",monospace}</style>
+<rect width="1080" height="1350" fill="#0b1220"/>
+<text x="60" y="86" class="mono" font-size="22" font-weight="700" fill="#ff9900" letter-spacing="3">KUBERNETES NETWORKING</text>
+<text x="60" y="166" class="sans" font-size="64" font-weight="800" fill="#f8fafc">It’s 5 jobs,</text>
+<text x="60" y="238" class="sans" font-size="64" font-weight="800" fill="#f8fafc">not one tool fight.</text>
+<text x="60" y="292" class="sans" font-size="27" fill="#94a3b8">Pick one tool per job. Most of them work together.</text>
+<rect x="60" y="336" width="960" height="158" rx="18" fill="#111c33" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="2"/>
+<rect x="60" y="336" width="10" height="158" rx="5" fill="#60a5fa"/>
+<circle cx="122" cy="386" r="26" fill="#60a5fa"/>
+<text x="122" y="396" text-anchor="middle" class="sans" font-size="28" font-weight="800" fill="#0b1220">1</text>
+<text x="168" y="396" class="sans" font-size="31" font-weight="700" fill="#f8fafc">Pod networking (CNI)</text>
+<text x="168" y="430" class="sans" font-size="21" font-style="italic" fill="#94a3b8">Wiring and room numbers</text>
+<rect x="168" y="446" width="153" height="34" rx="8" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="182" y="469" class="mono" font-size="19" fill="#e2e8f0">AWS VPC CNI</text>
+<rect x="333" y="446" width="96" height="34" rx="8" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="347" y="469" class="mono" font-size="19" fill="#e2e8f0">Cilium</text>
+<rect x="442" y="446" width="96" height="34" rx="8" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="456" y="469" class="mono" font-size="19" fill="#e2e8f0">Calico</text>
+<rect x="550" y="446" width="108" height="34" rx="8" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="564" y="469" class="mono" font-size="19" fill="#e2e8f0">Flannel</text>
+<rect x="60" y="510" width="960" height="158" rx="18" fill="#111c33" stroke="#ff9900" stroke-opacity="0.55" stroke-width="2"/>
+<rect x="60" y="510" width="10" height="158" rx="5" fill="#ff9900"/>
+<circle cx="122" cy="560" r="26" fill="#ff9900"/>
+<text x="122" y="570" text-anchor="middle" class="sans" font-size="28" font-weight="800" fill="#0b1220">2</text>
+<text x="168" y="570" class="sans" font-size="31" font-weight="700" fill="#f8fafc">Front door load balancer</text>
+<text x="168" y="604" class="sans" font-size="21" font-style="italic" fill="#94a3b8">The front door</text>
+<rect x="168" y="620" width="165" height="34" rx="8" fill="#ff9900" fill-opacity="0.14" stroke="#ff9900" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="182" y="643" class="mono" font-size="19" fill="#e2e8f0">AWS ALB · L7</text>
+<rect x="345" y="620" width="165" height="34" rx="8" fill="#ff9900" fill-opacity="0.14" stroke="#ff9900" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="359" y="643" class="mono" font-size="19" fill="#e2e8f0">AWS NLB · L4</text>
+<rect x="522" y="620" width="51" height="34" rx="8" fill="#ff9900" fill-opacity="0.14" stroke="#ff9900" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="536" y="643" class="mono" font-size="19" fill="#e2e8f0">F5</text>
+<rect x="584" y="620" width="108" height="34" rx="8" fill="#ff9900" fill-opacity="0.14" stroke="#ff9900" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="598" y="643" class="mono" font-size="19" fill="#e2e8f0">HAProxy</text>
+<rect x="704" y="620" width="108" height="34" rx="8" fill="#ff9900" fill-opacity="0.14" stroke="#ff9900" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="718" y="643" class="mono" font-size="19" fill="#e2e8f0">MetalLB</text>
+<rect x="60" y="684" width="960" height="158" rx="18" fill="#111c33" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="2"/>
+<rect x="60" y="684" width="10" height="158" rx="5" fill="#a78bfa"/>
+<circle cx="122" cy="734" r="26" fill="#a78bfa"/>
+<text x="122" y="744" text-anchor="middle" class="sans" font-size="28" font-weight="800" fill="#0b1220">3</text>
+<text x="168" y="744" class="sans" font-size="31" font-weight="700" fill="#f8fafc">Routing rules</text>
+<rect x="410" y="716" width="235" height="36" rx="18" fill="none" stroke="#a78bfa" stroke-width="2"/>
+<text x="527" y="741" text-anchor="middle" class="sans" font-size="19" font-weight="600" fill="#a78bfa">does nothing alone</text>
+<text x="168" y="778" class="sans" font-size="21" font-style="italic" fill="#94a3b8">The sign on the wall: Sales → 2nd floor</text>
+<rect x="168" y="794" width="153" height="34" rx="8" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="182" y="817" class="mono" font-size="19" fill="#e2e8f0">Gateway API</text>
+<rect x="333" y="794" width="199" height="34" rx="8" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="347" y="817" class="mono" font-size="19" fill="#e2e8f0">Ingress (older)</text>
+<rect x="60" y="858" width="960" height="158" rx="18" fill="#111c33" stroke="#2dd4bf" stroke-opacity="0.55" stroke-width="2"/>
+<rect x="60" y="858" width="10" height="158" rx="5" fill="#2dd4bf"/>
+<circle cx="122" cy="908" r="26" fill="#2dd4bf"/>
+<text x="122" y="918" text-anchor="middle" class="sans" font-size="28" font-weight="800" fill="#0b1220">4</text>
+<text x="168" y="918" class="sans" font-size="31" font-weight="700" fill="#f8fafc">Rule follower</text>
+<text x="168" y="952" class="sans" font-size="21" font-style="italic" fill="#94a3b8">The receptionist who reads the sign</text>
+<rect x="168" y="968" width="222" height="34" rx="8" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="182" y="991" class="mono" font-size="19" fill="#e2e8f0">AWS LB Controller</text>
+<rect x="402" y="968" width="85" height="34" rx="8" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="416" y="991" class="mono" font-size="19" fill="#e2e8f0">NGINX</text>
+<rect x="499" y="968" width="108" height="34" rx="8" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="513" y="991" class="mono" font-size="19" fill="#e2e8f0">Traefik</text>
+<rect x="619" y="968" width="74" height="34" rx="8" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="633" y="991" class="mono" font-size="19" fill="#e2e8f0">Kong</text>
+<rect x="704" y="968" width="96" height="34" rx="8" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="718" y="991" class="mono" font-size="19" fill="#e2e8f0">Cilium</text>
+<rect x="60" y="1032" width="960" height="158" rx="18" fill="#111c33" stroke="#f472b6" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="9 7"/>
+<rect x="60" y="1032" width="10" height="158" rx="5" fill="#f472b6"/>
+<circle cx="122" cy="1082" r="26" fill="#f472b6"/>
+<text x="122" y="1092" text-anchor="middle" class="sans" font-size="28" font-weight="800" fill="#0b1220">5</text>
+<text x="168" y="1092" class="sans" font-size="31" font-weight="700" fill="#f8fafc">Service mesh</text>
+<rect x="392" y="1064" width="120" height="36" rx="18" fill="none" stroke="#f472b6" stroke-width="2"/>
+<text x="452" y="1089" text-anchor="middle" class="sans" font-size="19" font-weight="600" fill="#f472b6">optional</text>
+<text x="168" y="1126" class="sans" font-size="21" font-style="italic" fill="#94a3b8">Hallway security between rooms</text>
+<rect x="168" y="1142" width="85" height="34" rx="8" fill="#f472b6" fill-opacity="0.14" stroke="#f472b6" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="182" y="1165" class="mono" font-size="19" fill="#e2e8f0">Istio</text>
+<rect x="265" y="1142" width="108" height="34" rx="8" fill="#f472b6" fill-opacity="0.14" stroke="#f472b6" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="279" y="1165" class="mono" font-size="19" fill="#e2e8f0">Linkerd</text>
+<rect x="385" y="1142" width="96" height="34" rx="8" fill="#f472b6" fill-opacity="0.14" stroke="#f472b6" stroke-opacity="0.6" stroke-width="1.5"/>
+<text x="399" y="1165" class="mono" font-size="19" fill="#e2e8f0">Cilium</text>
+<text x="60" y="1252" class="sans" font-size="26" font-weight="700" fill="#f8fafc">Gateway API stays the same everywhere.</text>
+<text x="60" y="1290" class="sans" font-size="26" fill="#94a3b8">Swap the tool that follows it.</text>
+</svg>
