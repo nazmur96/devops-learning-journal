@@ -31,6 +31,15 @@
         "state": "published",
         "url": "https://www.linkedin.com/feed/update/urn:li:share:7513913032767393792/"
       }
+    },
+    "networking/why-cant-my-app-connect-to-my-database.md": {
+      "devto": {
+        "content_hash": "b78a30e2d52cfd27a52de2a30b1c67c4fd4545cd852f59c2d87ba05768dd6e34",
+        "posted_at": "2026-10-09T11:39:17+00:00",
+        "remote_id": "4823086",
+        "state": "draft",
+        "url": "https://dev.to/nazmur96/why-cant-my-app-connect-to-my-database-56ne-temp-slug-9826918"
+      }
     }
   },
   "version": 1
