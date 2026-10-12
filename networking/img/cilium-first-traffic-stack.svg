@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<style>.s{font-family:"Noto Sans",sans-serif}.m{font-family:"JetBrainsMono NF",monospace}</style>
+<rect width="1080" height="1350" fill="#0b1220"/>
+<text x="40" y="78" class="m" font-size="22" font-weight="700" fill="#ff9900" letter-spacing="3">KUBERNETES TRAFFIC STACK</text>
+<text x="40" y="150" class="s" font-size="56" font-weight="800" fill="#f8fafc">An NLB forwards connections.</text>
+<text x="40" y="216" class="s" font-size="56" font-weight="800" fill="#f8fafc">An ALB routes requests.</text>
+<text x="40" y="290" class="m" font-size="17" fill="#94a3b8">NLB + YOUR GATEWAY</text>
+<rect x="40" y="300" width="120" height="82" rx="12" fill="#111c33" stroke="#334155" stroke-width="1.5"/>
+<text x="100.0" y="349.0" text-anchor="middle" class="s" font-size="23" font-weight="700" fill="#f8fafc">User</text>
+<path d="M160,341.0 L194,341.0" stroke="#64748b" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="196" y="300" width="240" height="82" rx="12" fill="#111c33" stroke="#334155" stroke-width="1.5"/>
+<text x="316.0" y="334" text-anchor="middle" class="s" font-size="23" font-weight="700" fill="#f8fafc">NLB</text>
+<text x="316.0" y="362" text-anchor="middle" class="s" font-size="17" fill="#94a3b8">reads IP + port only</text>
+<path d="M436,341.0 L470,341.0" stroke="#64748b" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="472" y="300" width="300" height="82" rx="12" fill="#f7b500" fill-opacity="0.16" stroke="#f7b500" stroke-width="2.5"/>
+<text x="622.0" y="334" text-anchor="middle" class="s" font-size="23" font-weight="700" fill="#f8fafc">Cilium Gateway</text>
+<text x="622.0" y="362" text-anchor="middle" class="s" font-size="17" fill="#e2e8f0">decrypts, reads, decides</text>
+<path d="M772,341.0 L806,341.0" stroke="#64748b" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="808" y="300" width="232" height="82" rx="12" fill="#111c33" stroke="#334155" stroke-width="1.5"/>
+<text x="924.0" y="334" text-anchor="middle" class="s" font-size="23" font-weight="700" fill="#f8fafc">Services</text>
+<text x="924.0" y="362" text-anchor="middle" class="s" font-size="17" fill="#94a3b8">cart · catalog · ui</text>
+<text x="40" y="422" class="m" font-size="17" fill="#94a3b8">ALB ALONE</text>
+<rect x="40" y="432" width="120" height="82" rx="12" fill="#111c33" stroke="#334155" stroke-width="1.5"/>
+<text x="100.0" y="481.0" text-anchor="middle" class="s" font-size="23" font-weight="700" fill="#f8fafc">User</text>
+<path d="M160,473.0 L194,473.0" stroke="#64748b" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="196" y="432" width="576" height="82" rx="12" fill="#ff9900" fill-opacity="0.16" stroke="#ff9900" stroke-width="2.5"/>
+<text x="484.0" y="466" text-anchor="middle" class="s" font-size="23" font-weight="700" fill="#f8fafc">ALB</text>
+<text x="484.0" y="494" text-anchor="middle" class="s" font-size="17" fill="#e2e8f0">decrypts, reads host + path + headers, decides</text>
+<path d="M772,473.0 L806,473.0" stroke="#64748b" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="808" y="432" width="232" height="82" rx="12" fill="#111c33" stroke="#334155" stroke-width="1.5"/>
+<text x="924.0" y="466" text-anchor="middle" class="s" font-size="23" font-weight="700" fill="#f8fafc">Services</text>
+<text x="924.0" y="494" text-anchor="middle" class="s" font-size="17" fill="#94a3b8">cart · catalog · ui</text>
+<text x="40" y="550" class="s" font-size="19" font-style="italic" fill="#94a3b8">Highlighted = where the routing decision is made</text>
+<text x="40" y="612" class="s" font-size="38" font-weight="800" fill="#f7b500">Cilium first.</text>
+<text x="290" y="612" class="s" font-size="30" font-weight="700" fill="#f8fafc">Add a tool only for a named need.</text>
+<rect x="40" y="642" width="1000" height="44" rx="10" fill="#16233f"/>
+<text x="60" y="671" class="s" font-size="19" font-weight="700" fill="#cbd5e1">Layer</text>
+<text x="380" y="671" class="s" font-size="19" font-weight="700" fill="#cbd5e1">Default</text>
+<text x="660" y="671" class="s" font-size="19" font-weight="700" fill="#cbd5e1">Swap in when you need…</text>
+<rect x="40" y="698" width="1000" height="84" rx="10" fill="#111c33"/>
+<text x="60" y="746" class="s" font-size="22" font-weight="700" fill="#f8fafc">Pod networking + policy</text>
+<rect x="380" y="718" width="100" height="42" rx="21" fill="#f7b500" fill-opacity="0.16" stroke="#f7b500" stroke-width="2"/>
+<text x="430" y="746" text-anchor="middle" class="s" font-size="20" font-weight="700" fill="#f7b500">Cilium</text>
+<text x="660" y="746" class="s" font-size="19" font-style="italic" fill="#64748b">basically never</text>
+<rect x="40" y="792" width="1000" height="84" rx="10" fill="#111c33"/>
+<text x="60" y="840" class="s" font-size="22" font-weight="700" fill="#f8fafc">Observability</text>
+<rect x="380" y="812" width="100" height="42" rx="21" fill="#f7b500" fill-opacity="0.16" stroke="#f7b500" stroke-width="2"/>
+<text x="430" y="840" text-anchor="middle" class="s" font-size="20" font-weight="700" fill="#f7b500">Hubble</text>
+<text x="660" y="826" class="s" font-size="18" font-style="italic" fill="#94a3b8">app metrics, traces</text>
+<text x="660" y="856" class="m" font-size="20" font-weight="700" fill="#e2e8f0">→ Prometheus, OTel</text>
+<rect x="40" y="886" width="1000" height="84" rx="10" fill="#111c33"/>
+<text x="60" y="934" class="s" font-size="22" font-weight="700" fill="#f8fafc">External IP · bare metal</text>
+<rect x="380" y="906" width="204" height="42" rx="21" fill="#f7b500" fill-opacity="0.16" stroke="#f7b500" stroke-width="2"/>
+<text x="482" y="934" text-anchor="middle" class="s" font-size="20" font-weight="700" fill="#f7b500">Cilium BGP / L2</text>
+<text x="660" y="920" class="s" font-size="18" font-style="italic" fill="#94a3b8">a separate edge box</text>
+<text x="660" y="950" class="m" font-size="20" font-weight="700" fill="#e2e8f0">→ HAProxy + keepalived</text>
+<rect x="40" y="980" width="1000" height="84" rx="10" fill="#111c33"/>
+<text x="60" y="1028" class="s" font-size="22" font-weight="700" fill="#f8fafc">External IP · AWS</text>
+<rect x="380" y="1000" width="65" height="42" rx="21" fill="#94a3b8" fill-opacity="0.08" stroke="#94a3b8" stroke-width="2"/>
+<text x="412" y="1028" text-anchor="middle" class="s" font-size="20" font-weight="700" fill="#94a3b8">NLB</text>
+<text x="660" y="1014" class="s" font-size="18" font-style="italic" fill="#94a3b8">WAF or AWS login</text>
+<text x="660" y="1044" class="m" font-size="20" font-weight="700" fill="#e2e8f0">→ ALB</text>
+<rect x="40" y="1074" width="1000" height="84" rx="10" fill="#111c33"/>
+<text x="60" y="1122" class="s" font-size="22" font-weight="700" fill="#f8fafc">Ingress routing</text>
+<rect x="380" y="1094" width="192" height="42" rx="21" fill="#f7b500" fill-opacity="0.16" stroke="#f7b500" stroke-width="2"/>
+<text x="476" y="1122" text-anchor="middle" class="s" font-size="20" font-weight="700" fill="#f7b500">Cilium Gateway</text>
+<text x="660" y="1108" class="s" font-size="18" font-style="italic" fill="#94a3b8">rate limits, OIDC login</text>
+<text x="660" y="1138" class="m" font-size="20" font-weight="700" fill="#e2e8f0">→ Envoy Gateway, Traefik</text>
+<rect x="40" y="1168" width="1000" height="84" rx="10" fill="#111c33"/>
+<text x="60" y="1216" class="s" font-size="22" font-weight="700" fill="#f8fafc">Service mesh</text>
+<rect x="380" y="1188" width="158" height="42" rx="21" fill="#94a3b8" fill-opacity="0.08" stroke="#94a3b8" stroke-width="2"/>
+<text x="459" y="1216" text-anchor="middle" class="s" font-size="20" font-weight="700" fill="#94a3b8">nothing yet</text>
+<text x="660" y="1202" class="s" font-size="18" font-style="italic" fill="#94a3b8">strict identity, canaries</text>
+<text x="660" y="1232" class="m" font-size="20" font-weight="700" fill="#e2e8f0">→ Istio ambient</text>
+<text x="40" y="1294" class="s" font-size="21" fill="#94a3b8">Everywhere: cert-manager for TLS, ExternalDNS for DNS records.</text>
+</svg>
