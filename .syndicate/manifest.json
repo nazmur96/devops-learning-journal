@@ -35,10 +35,17 @@
     "networking/kubernetes-traffic-stack-cilium-first.md": {
       "devto": {
         "content_hash": "d7cc0c71de117132ef2ac2edef6a71b28e88a39ace3162b7f43a7ed2f5453f7a",
-        "posted_at": "2026-10-12T10:25:27+00:00",
+        "posted_at": "2026-10-12T10:26:01+00:00",
         "remote_id": "4837624",
-        "state": "draft",
-        "url": "https://dev.to/nazmur96/kubernetes-traffic-stack-from-nlb-vs-alb-to-a-cilium-first-setup-1di-temp-slug-6256578"
+        "state": "published",
+        "url": "https://dev.to/nazmur96/kubernetes-traffic-stack-from-nlb-vs-alb-to-a-cilium-first-setup-24p0"
+      },
+      "linkedin": {
+        "content_hash": "1a43ed0949f2cac02b8ee60401fb6909175de55e82e13f0988ea1859f46043f6",
+        "posted_at": "2026-10-12T10:26:03+00:00",
+        "remote_id": "urn:li:share:7515357104791117825",
+        "state": "published",
+        "url": "https://www.linkedin.com/feed/update/urn:li:share:7515357104791117825/"
       }
     },
     "networking/why-cant-my-app-connect-to-my-database.md": {
